@@ -3,7 +3,7 @@ There are no tuple comprehensions in Python!
     (i + 1 for i in range(10))
 While this might look like a tuple comprehension, it's not.
 Instead, this syntax can be used to define a generator.
-More precisely it's called a generator expression. """
+More precisely, this is a generator expression. """
 
 
 # Generator Expression - AKA Not A Tuple Comprehension

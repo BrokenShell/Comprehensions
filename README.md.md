@@ -1,11 +1,11 @@
 # Labs Data Science Workshop: Python Comprehensions
 
 ### Workshop Outline
-0. Introduction & Motivation
-1. List Comprehensions
-2. Set Comprehensions
-3. Dictionary Comprehensions
-4. Generator Expressions
+1. Introduction & Motivation
+2. List Comprehensions
+3. Set Comprehensions
+4. Dictionary Comprehensions
+5. Generator Expressions
 
 ## 0. Introduction & Motivation
 Comprehensions are one of the most useful features to come from Python. They make our
