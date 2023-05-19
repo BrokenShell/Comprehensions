@@ -23,6 +23,7 @@ print(f"{tup = }\n")
 Its not always about data structures. """
 
 # Sum Comprehension
+# total = sum([i**2 for i in range(10)])  # The extra brackets are not needed
 # total = sum((i**2 for i in range(10)))  # The extra parens are not needed
 total = sum(i**2 for i in range(10))  # This is the same as above
 print(f"{total = }\n")
@@ -30,5 +31,5 @@ print(f"{total = }\n")
 # Any & All Comprehensions
 all_even = all(i % 2 == 0 for i in range(0, 10))
 print(f"{all_even = }")  # False
-any_even = (i % 2 == 0 for i in range(0, 10))
+any_even = any(i % 2 == 0 for i in range(0, 10))
 print(f"{any_even = }")  # True
